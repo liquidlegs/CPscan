@@ -6,5 +6,5 @@ A basic port scanner written in C using winapi's
 ### How to compile executable
 Assuming you already have gcc mingw installed with the environment variables setup. Enter the following command into your terminal.
 ```
-gcc Whatever/you/path/toYourDirectoryIs/CPScan/portScanTest.c -lws2_32 -ldnsapi -o Your/Directory/CPScan/Bin/portScanTest
+gcc Whatever/you/path/toYourDirectoryIs/CPScan/portScanTest.c -lws2_32 -ldnsapi -o Your/Directory/CPScan/portScanTest.exe
 ```
