@@ -5,7 +5,6 @@
 #include <WS2tcpip.h>
 #include <windns.h>
 #include <winerror.h>
-#include <process.h>
 
 typedef enum Protocol {
     Tcp,
