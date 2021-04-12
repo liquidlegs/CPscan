@@ -42,7 +42,7 @@ returns WSADATA.
 void InitWinSock() {
     WSADATA w;
     int err = WSAStartup(MAKEWORD(2,2), &w);
-    if(err < 0) wprintf(L"Failed to initalize winsock\n");
+    if(err < 0) printf("Failed to initalize winsock\n");
 }
 
 /*
